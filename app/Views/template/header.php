@@ -9,4 +9,4 @@
     <title><?php echo isset($this->breadcrumb) ? \Config\AppInfo::$name . " | " . $this->breadcrumb : \Config\AppInfo::$name; ?></title>
 </head>
 
-<body>
+<body style="background: #f3f3f3;">

@@ -2,10 +2,9 @@
 
 namespace App\Models;
 
-use Config\DB;
-
 class Compra extends Model
 {
     protected $table = "compras";
+    protected $primary_key = "idcompras";
    
 }
